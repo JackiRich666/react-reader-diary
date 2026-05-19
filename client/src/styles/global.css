@@ -568,10 +568,13 @@ textarea {
 .auth-links {
   display: flex;
   justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
 .banner-error,
 .form-error,
+.form-success,
 .fullscreen-message {
   border-radius: 18px;
   padding: 14px 16px;
@@ -582,6 +585,12 @@ textarea {
   background: rgba(161, 61, 53, 0.12);
   color: var(--danger);
   border: 1px solid rgba(161, 61, 53, 0.16);
+}
+
+.form-success {
+  background: rgba(62, 107, 90, 0.12);
+  color: var(--secondary);
+  border: 1px solid rgba(62, 107, 90, 0.18);
 }
 
 .fullscreen-message {

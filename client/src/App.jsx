@@ -11,6 +11,7 @@ export default function App() {
         <Routes>
           <Route path="/login" element={<AuthPage mode="login" />} />
           <Route path="/register" element={<AuthPage mode="register" />} />
+          <Route path="/reset-password" element={<AuthPage mode="reset" />} />
           <Route
             path="/"
             element={
@@ -25,4 +26,3 @@ export default function App() {
     </AuthProvider>
   );
 }
-
